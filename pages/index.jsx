@@ -9,7 +9,7 @@ import { getFirestore, collection, query, orderBy, getDocs } from "firebase/fire
 import { firebaseApp } from "@/firebase"; // Ensure firebaseApp is initialized
 
 export default function Home({ session, posts }) {
-  if (!session) return <Login />;
+  // if (!session) return <Login />;
 
   return (
     <div>
