@@ -1,9 +1,11 @@
 {
+  "homepage": "https://github.com/AarjavKiledar/FaceBookClone",
   "name": "fbclone",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy": "next build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
